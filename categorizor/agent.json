@@ -1,0 +1,18 @@
+{
+  "author": "fynal-ai",
+  "name": "fynal-ai/categorizor",
+  "version": "1.0.2",
+  "label": "Categorize question field with OpenAI chatgpt API",
+  "description": "Accept user message, and determine what category it is. Will return the result. ",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "doc",
+  "config": {
+    "input": {
+      "message": "hello"
+    },
+    "output": {
+      "route": "category_1"
+    }
+  },
+  "executor": "nodejs"
+}

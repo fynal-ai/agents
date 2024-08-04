@@ -1,0 +1,11 @@
+{
+	"name": "articlePublisher",
+	"type": "module",
+	"main": "./src/index.js",
+	"scripts": {
+		"dev": "node test/index.js"
+	},
+	"dependencies": {
+		"@jobsimi/apm": "^0.1.3"
+	}
+}

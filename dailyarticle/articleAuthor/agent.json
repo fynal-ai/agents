@@ -1,0 +1,19 @@
+{
+  "author": "daily-article",
+  "name": "daily-article/articleAuthor",
+  "version": "1.0.1",
+  "label": "Article authoring",
+  "description": "Write full article based on topic and outline",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "doc",
+  "config": {
+    "input": {
+      "topic": "the topic",
+      "outline": "the outlined content"
+    },
+    "output": {
+      "article": "The generated article content"
+    }
+  },
+  "executor": "nodejs"
+}

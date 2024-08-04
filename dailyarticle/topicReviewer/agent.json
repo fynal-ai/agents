@@ -1,0 +1,20 @@
+{
+  "author": "daily-article",
+  "name": "daily-article/topicReviewer",
+  "version": "1.1.2",
+  "label": "Topic Reviewer",
+  "description": "Review topic submitted, review and suggest",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "Accept a topic of daily article, analyse it, then determine whether this is a good topic or not, if reject, the suggested topic will be included in the output ",
+  "config": {
+    "input": {
+      "topic": "hello"
+    },
+    "output": {
+      "route": "continue|reject",
+      "reason": "the reason to reject",
+      "topic": "the suggested topic"
+    }
+  },
+  "executor": "nodejs"
+}

@@ -1,0 +1,18 @@
+{
+  "author": "daily-article",
+  "name": "daily-article/topicOutliner",
+  "version": "1.0.1",
+  "label": "Article outliner",
+  "description": "Give the outline of an article based on topic",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "doc",
+  "config": {
+    "input": {
+      "topic": "the topic"
+    },
+    "output": {
+      "outline": "1. 2. 3. 4."
+    }
+  },
+  "executor": "nodejs"
+}
