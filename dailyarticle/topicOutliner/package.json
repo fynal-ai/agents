@@ -1,11 +1,12 @@
 {
-	"name": "topicOutliner",
-	"type": "module",
-	"main": "./src/index.js",
-	"scripts": {
-		"dev": "node test/index.js"
-	},
-	"dependencies": {
-		"@jobsimi/apm": "^0.1.3"
-	}
+  "name": "topicOutliner",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node test/index.js"
+  },
+  "dependencies": {
+    "@fynal-ai/apm": "^0.1.13",
+    "openai": "^4.54.0"
+  }
 }

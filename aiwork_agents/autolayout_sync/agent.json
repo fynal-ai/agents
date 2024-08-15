@@ -1,0 +1,20 @@
+{
+  "author": "aiwork",
+  "name": "aiwork/autolayout_sync",
+  "version": "0.0.1",
+  "label": "HelloNodeJsAgent",
+  "description": "APM Node.Js agent template",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "Markdown doc",
+  "runMode": "sync",
+  "config": {
+    "input": {
+      "style": "ink",
+      "prompt": "hello"
+    },
+    "output": {
+      "text": "Hello!"
+    }
+  },
+  "executor": "nodejs"
+}

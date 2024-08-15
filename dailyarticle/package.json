@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@fynal-ai/apm": "^0.1.15"
+	}
+}

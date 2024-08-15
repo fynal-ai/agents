@@ -1,0 +1,23 @@
+{
+  "author": "daily-article",
+  "name": "daily-article/articleOutliner",
+  "version": "1.1.2",
+  "label": "Topic Reviewer",
+  "description": "Review topic submitted, give 5 optimized topics",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "Accept a topic of daily article, analyse it, then determine whether this is a good topic or not, if reject, the suggested topic will be included in the output ",
+  "config": {
+    "input": {
+      "topic": "a topic input by user",
+      //background可以包含对topic的业务背景说明,
+      "background": "The background information provided by user, may be empty"
+    },
+    "output": {
+      //结合用户给的topic, background, 以及“头条热门”信息的搜索
+      //给出5个新的topic建议，以及生成文章的大纲， 大纲并不只是header， 需要在最开始有一段起头的文字。这个工作的下一步是让用户人工选择一个topic，并对outline进行优化， 再之后，把用户选择的topic,  background和outline提交给下一个agent来写出文章
+      "topics": "the suggested topic",
+      "outline": "the generated outline"
+    }
+  },
+  "executor": "nodejs"
+}

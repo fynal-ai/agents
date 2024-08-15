@@ -9,7 +9,8 @@
   "config": {
     "input": {
       "topic": "the topic",
-      "outline": "the outlined content"
+      "outline": "the outlined content",
+      "background": "background"
     },
     "output": {
       "article": "The generated article content"

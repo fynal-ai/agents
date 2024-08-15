@@ -1,0 +1,18 @@
+{
+  "author": "aiwork",
+  "name": "aiwork/autolayout",
+  "version": "0.0.1",
+  "label": "Aiwork template autolayout",
+  "description": "Auto layout aiwork tempalte diagram",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "Auto layout aiwork tempalte diagram",
+  "config": {
+    "input": {
+      "html": "the tempalte in html format"
+    },
+    "output": {
+      "json": "{'start':{'left':0, 'top':0}}"
+    }
+  },
+  "executor": "nodejs"
+}

@@ -8,7 +8,8 @@
   "doc": "Accept a topic of daily article, analyse it, then determine whether this is a good topic or not, if reject, the suggested topic will be included in the output ",
   "config": {
     "input": {
-      "topic": "hello"
+      "topic": "hello",
+      "background": "Background information"
     },
     "output": {
       "route": "continue|reject",

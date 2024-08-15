@@ -1,0 +1,19 @@
+{
+	"author": "fynal-ai",
+	"name": "fynal-ai/hello",
+	"version": "0.0.1",
+	"label": "HelloNodeJsAgent",
+	"description": "APM Node.Js agent template",
+	"icon": "https://bonsai.baystoneai.com/favicon.png",
+	"doc": "Markdown doc",
+	"config": {
+		"input": {
+			"style": "ink",
+			"prompt": "hello"
+		},
+		"output": {
+			"text": "Hello!"
+		}
+	},
+	"executor": "nodejs"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "autolayout",
+	"type": "module",
+	"main": "./src/index.js",
+	"scripts": {
+		"dev": "node test/index.js"
+	},
+	"dependencies": {
+		"@fynal-ai/apm": "^0.1.17",
+		"openai": "^4.55.7"
+	}
+}
