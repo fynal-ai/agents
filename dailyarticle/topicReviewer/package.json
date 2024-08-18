@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@fynal-ai/apm": "^0.1.12",
+    "apm:latest": "link:@fynal-ai/apm:latest",
     "openai": "^4.54.0"
   }
 }
