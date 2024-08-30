@@ -1,0 +1,19 @@
+{
+  "author": "fynal-ai",
+  "name": "fynal-ai/echo",
+  "version": "0.0.1",
+  "label": "ECHO agent",
+  "description": "Simply output any input it get",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "Markdown doc",
+  "config": {
+    "input": {
+      "payload": "ink"
+    },
+    "output": {
+      "payload": "Hello!"
+    }
+  },
+  "executor": "nodejs",
+  "runMode": "sync"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "echo",
+	"type": "module",
+	"main": "./src/index.js",
+	"scripts": {
+		"dev": "node test/index.js"
+	},
+	"dependencies": {
+		"@fynal-ai/apm": "^0.1.20",
+		"openai": "^4.57.0"
+	}
+}
