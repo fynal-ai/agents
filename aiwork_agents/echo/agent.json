@@ -1,0 +1,19 @@
+{
+  "author": "lucas",
+  "name": "lucas/echo",
+  "version": "0.0.1",
+  "label": "SimpleEcho",
+  "description": "Echo input to output",
+  "icon": "https://bonsai.baystoneai.com/favicon.png",
+  "doc": "Markdown doc",
+  "config": {
+    "input": {
+      "content": "anything"
+    },
+    "output": {
+      "content": "anything!"
+    }
+  },
+  "executor": "nodejs",
+  "runMode": "async"
+}
